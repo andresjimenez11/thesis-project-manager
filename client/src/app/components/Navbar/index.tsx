@@ -65,6 +65,12 @@ const Navbar = () => {
           <Settings className='h-6 w-6 cursor-pointer dark:text-white'/>
         </Link>
         <div className='ml-2 mr-5 hidden min-h-[2em] w-[0.1rem] bg-gray-200 md:inline-block'></div>
+        <button
+            className="hidden rounded bg-blue-400 px-4 py-2 text-xs font-bold text-white hover:bg-blue-500 md:block"
+            
+          >
+            Cerrar Sesión
+          </button>
       </div>
     </div>
   )
